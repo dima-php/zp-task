@@ -12,7 +12,7 @@
 ```
 
 ```shell
- cd task && composer install
+ cd zp-task && composer install
 ```
 
 ```shell
