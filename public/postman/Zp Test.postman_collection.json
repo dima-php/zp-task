@@ -1,0 +1,1114 @@
+{
+	"info": {
+		"_postman_id": "259a4214-ac8a-4d21-b867-9fef51ea588b",
+		"name": "Zp Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tasks index",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvdjFcL2xvZ2luIiwiaWF0IjoxNjMzNTQwNjM0LCJleHAiOjE2MzM1NDQyMzQsIm5iZiI6MTYzMzU0MDYzNCwianRpIjoickdWQXNsRTJld3lIMUZtbSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.xYzCmQ8tEtKBB6BK9whvLVZR26T5GtFehWURPiwd6bE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{apiUrl}}/tasks",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tasks index",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{apiUrl}}/tasks",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tasks"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:08:20 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:08:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"laboriosam voluptates cupiditate\",\n            \"description\": \"Illum commodi voluptatibus molestias consequuntur et quibusdam. Sit natus cupiditate similique cumque est ut quae. Tenetur qui magni quidem.\\n\\nEa necessitatibus sit saepe ut. Consectetur aut omnis tempora laudantium. Maiores praesentium eaque architecto reprehenderit error. Dolore nobis dolores expedita voluptas enim voluptas recusandae. Nam illo beatae facilis sint ex temporibus ex.\",\n            \"user_id\": 11\n        },\n        {\n            \"id\": 2,\n            \"name\": \"quasi ab quae\",\n            \"description\": \"Dolor et blanditiis nobis omnis. Qui est eum molestiae delectus voluptas qui. Non facilis sequi debitis iusto ut sequi.\\n\\nQuia consequuntur ea quia. In id fuga optio soluta quia commodi debitis. Qui corrupti qui aut corporis ut sunt voluptas. Officia natus consequatur veniam quis deleniti architecto nostrum.\",\n            \"user_id\": 12\n        },\n        {\n            \"id\": 3,\n            \"name\": \"distinctio aut dignissimos\",\n            \"description\": \"Rerum enim quis dolores et quam quaerat iusto. Possimus voluptatem mollitia doloremque nesciunt dicta voluptatibus perferendis. Velit esse nesciunt eveniet voluptate dicta.\\n\\nDucimus in accusantium sed magnam illo est ipsam. Nam et fugit explicabo. Numquam rem aut corporis est in. Accusamus ea ea rerum. Ea sunt quia ratione.\",\n            \"user_id\": 13\n        },\n        {\n            \"id\": 4,\n            \"name\": \"quibusdam aspernatur cupiditate\",\n            \"description\": \"Itaque nisi qui tempore et beatae eos aperiam. Dolores quos consequatur incidunt mollitia. Adipisci consectetur repellendus sit sit expedita. Est eum magni dicta.\\n\\nEst quos sit tenetur. Sunt ullam excepturi officiis possimus. Quibusdam dignissimos rerum dolorem est quia debitis explicabo sunt. A eos voluptas repellat non laboriosam reiciendis culpa.\",\n            \"user_id\": 14\n        },\n        {\n            \"id\": 5,\n            \"name\": \"mollitia id tempore\",\n            \"description\": \"Omnis veniam perferendis est eaque odit ut. Non reprehenderit blanditiis aut ut. Itaque laboriosam sit ut quae sit neque. At et aut magnam deserunt eius qui eos aliquam.\\n\\nModi ea voluptates explicabo ut et sed. Eum id voluptatem aut quod quasi est sit. Libero officia aut aperiam at tempore libero. Explicabo velit natus ut ullam.\",\n            \"user_id\": 15\n        },\n        {\n            \"id\": 6,\n            \"name\": \"consequatur quia quae\",\n            \"description\": \"Ipsa consequatur ut ipsum neque et nesciunt. Voluptatem et quam aut quidem nesciunt excepturi reiciendis. Consectetur voluptatem animi quia ipsam earum sapiente deleniti. Repellendus velit numquam delectus.\\n\\nQui hic dolor rem nisi dolorem. Est quo id impedit ut amet. Reprehenderit eum accusamus aspernatur dolor velit cumque et.\",\n            \"user_id\": 16\n        },\n        {\n            \"id\": 7,\n            \"name\": \"soluta quaerat voluptatem\",\n            \"description\": \"Voluptatum ducimus omnis ratione qui aut in voluptatem. Necessitatibus odit quidem rerum. Qui ex officia delectus molestiae repellendus molestiae.\\n\\nQui possimus dolor ullam atque sint. Qui iure excepturi qui ullam accusantium facilis. Iure sit ea laudantium ullam sunt nesciunt quia et. Maxime fugit culpa aspernatur cumque qui.\",\n            \"user_id\": 17\n        },\n        {\n            \"id\": 8,\n            \"name\": \"nostrum tempore alias\",\n            \"description\": \"Vel blanditiis mollitia cupiditate est. Minus quia eum quia iusto totam eum magni. Illum consequatur corrupti qui fugiat labore fuga. Vel harum ut quia aut quia.\\n\\nNihil a voluptatibus voluptas quas. Velit reiciendis accusamus suscipit.\",\n            \"user_id\": 18\n        },\n        {\n            \"id\": 9,\n            \"name\": \"ea aut libero\",\n            \"description\": \"Vero iure assumenda laudantium est deleniti. Quisquam voluptatem excepturi sequi iste atque asperiores. Voluptatem voluptate velit ut illum ut quo.\\n\\nVeritatis ea est sequi ratione natus non sunt. Maxime non voluptatum magnam. Placeat odio similique voluptas tenetur excepturi. Tempore harum est sapiente quia fuga.\",\n            \"user_id\": 19\n        }\n    ],\n    \"links\": {\n        \"first\": \"http://localhost/api/v1/tasks?page=1\",\n        \"last\": \"http://localhost/api/v1/tasks?page=5\",\n        \"prev\": null,\n        \"next\": \"http://localhost/api/v1/tasks?page=2\"\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": 1,\n        \"last_page\": 5,\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=2\",\n                \"label\": \"2\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=3\",\n                \"label\": \"3\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=4\",\n                \"label\": \"4\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=5\",\n                \"label\": \"5\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=2\",\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"path\": \"http://localhost/api/v1/tasks\",\n        \"per_page\": 9,\n        \"to\": 9,\n        \"total\": 40\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Task show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiUrl}}/tasks/42",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tasks",
+						"42"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Task show",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{apiUrl}}/tasks/42",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tasks",
+								"42"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:51:25 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:51:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"task\": {\n        \"id\": 42,\n        \"name\": \"task 1\",\n        \"description\": \"description 1\",\n        \"user_id\": 1\n    },\n    \"task_tags\": [\n        {\n            \"id\": 1,\n            \"name\": \"Pending\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"In progress\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Task store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{apiUrl}}/tasks",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Task store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"task 1\",\n    \"description\": \"description 1\",\n    \"user_id\": 1,\n    \"tags\": [1,2]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tasks",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tasks"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:46:48 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:46:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"task\": {\n        \"id\": 42,\n        \"name\": \"task 1\",\n        \"description\": \"description 1\",\n        \"user_id\": 1\n    },\n    \"msg\": \"Ok! Task added\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Tasks user_id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvdjFcL2xvZ2luIiwiaWF0IjoxNjMzNTQwNjM0LCJleHAiOjE2MzM1NDQyMzQsIm5iZiI6MTYzMzU0MDYzNCwianRpIjoickdWQXNsRTJld3lIMUZtbSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.xYzCmQ8tEtKBB6BK9whvLVZR26T5GtFehWURPiwd6bE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{apiUrl}}/tasks?user_id=1",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tasks user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{apiUrl}}/tasks?user_id=1",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tasks"
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:50:14 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:50:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 41,\n            \"name\": \"task 1\",\n            \"description\": \"description 1\",\n            \"user_id\": 1\n        },\n        {\n            \"id\": 42,\n            \"name\": \"task 1\",\n            \"description\": \"description 1\",\n            \"user_id\": 1\n        }\n    ],\n    \"links\": {\n        \"first\": \"http://localhost/api/v1/tasks?page=1\",\n        \"last\": \"http://localhost/api/v1/tasks?page=1\",\n        \"prev\": null,\n        \"next\": null\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": 1,\n        \"last_page\": 1,\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tasks?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"path\": \"http://localhost/api/v1/tasks\",\n        \"per_page\": 9,\n        \"to\": 2,\n        \"total\": 2\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Task update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"task 1\",\n    \"description\": \"description 2\",\n    \"user_id\": 1,\n    \"tags\": [2,4]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiUrl}}/tasks/42",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tasks",
+						"42"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Task update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"task 1\",\n    \"description\": \"description 2\",\n    \"user_id\": 1,\n    \"tags\": [2,4]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tasks/42",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tasks",
+								"42"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:54:32 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 14:54:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"task\": {\n        \"id\": 42,\n        \"name\": \"task 1\",\n        \"description\": \"description 2\",\n        \"user_id\": 1\n    },\n    \"task_tags\": [\n        {\n            \"id\": 2,\n            \"name\": \"In progress\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Done\"\n        }\n    ],\n    \"msg\": \"Ok! Task updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Task delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"task test\",\n    \"description\": \"description test\",\n    \"user_id\": 6,\n    \"tags\": [1,2]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiUrl}}/tasks/41",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tasks",
+						"41"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Task delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"task test\",\n    \"description\": \"description test\",\n    \"user_id\": 6,\n    \"tags\": [1,2]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tasks/41",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tasks",
+								"41"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:23:43 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:23:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"msg\": \"Ok! Task delete\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Tag index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiUrl}}/tags",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tags"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tags index",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{apiUrl}}/tags",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tags"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:05:14 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:05:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Pending\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"In progress\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Testing\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Done\"\n        }\n    ],\n    \"links\": {\n        \"first\": \"http://localhost/api/v1/tags?page=1\",\n        \"last\": \"http://localhost/api/v1/tags?page=1\",\n        \"prev\": null,\n        \"next\": null\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": 1,\n        \"last_page\": 1,\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/api/v1/tags?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"path\": \"http://localhost/api/v1/tags\",\n        \"per_page\": 9,\n        \"to\": 4,\n        \"total\": 4\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Tag store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"tag new\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiUrl}}/tags",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tags"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tags store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tag new\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tags",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tags"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:07:09 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:07:09 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tag\": {\n        \"id\": 5,\n        \"name\": \"tag new\"\n    },\n    \"msg\": \"Ok! Tag added\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Tag show",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"tag new2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiUrl}}/tags/2",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tags",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tags show",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tag new2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tags/2",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tags",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:32:43 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:32:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tag\": {\n        \"id\": 2,\n        \"name\": \"In progress\"\n    },\n    \"tag_tasks\": [\n        {\n            \"id\": 5,\n            \"name\": \"et quibusdam dicta\",\n            \"description\": \"Dignissimos officiis cumque rem et labore corrupti vitae. Doloremque laborum aut reprehenderit vero nobis velit qui. Et ut et blanditiis. Nemo architecto optio numquam doloremque sapiente et qui. Ipsa sint consequatur animi.\\n\\nMinus dignissimos numquam facilis illum. Quisquam a optio corporis. Maxime minima ipsam et ut et autem qui. Temporibus qui in aliquid omnis ut.\",\n            \"user_id\": 15\n        },\n        {\n            \"id\": 7,\n            \"name\": \"accusamus et expedita\",\n            \"description\": \"Ex ipsam expedita id aut. Voluptas perspiciatis corporis nihil nesciunt. Soluta autem ut nesciunt dolore voluptate ipsam et. Labore aliquam est accusamus et. Vitae dolorum sed explicabo blanditiis.\\n\\nQui labore iste modi asperiores voluptatum qui. Aspernatur deserunt explicabo non eos illo aliquid.\",\n            \"user_id\": 17\n        },\n        {\n            \"id\": 17,\n            \"name\": \"quibusdam iusto et\",\n            \"description\": \"Aut eligendi alias voluptas dolor. Omnis delectus voluptate explicabo omnis omnis. Ea sed consequatur adipisci rerum animi.\\n\\nTempora facere omnis vitae mollitia. Voluptas animi fugiat fuga quia. Dolore nisi impedit rerum nobis.\",\n            \"user_id\": 27\n        },\n        {\n            \"id\": 20,\n            \"name\": \"magnam quaerat quis\",\n            \"description\": \"Et in labore odio distinctio. Aut animi et vel ex quos culpa sed et. Officiis odio ut maxime quas. Mollitia incidunt totam repellendus excepturi maiores. Est sed officiis harum blanditiis aut libero.\\n\\nDolore quasi nihil pariatur incidunt perspiciatis voluptatum velit. Nihil id modi tenetur ad illo. Eos ea ullam autem a.\",\n            \"user_id\": 30\n        },\n        {\n            \"id\": 31,\n            \"name\": \"sequi numquam molestiae\",\n            \"description\": \"Quia quo modi voluptas deleniti quia voluptas excepturi. Consequatur dolorem aut labore autem eaque nesciunt et omnis. Qui vero placeat voluptatibus molestiae consequatur assumenda quidem.\\n\\nDolorum ducimus eum est. Ea dolorem qui illo impedit voluptatem nesciunt. Accusamus odit corrupti sapiente vero deserunt nisi. Et est similique similique repudiandae commodi. Qui ut explicabo est natus.\",\n            \"user_id\": 41\n        },\n        {\n            \"id\": 36,\n            \"name\": \"nulla enim fuga\",\n            \"description\": \"Et veritatis vitae quibusdam aliquid repudiandae ut. Possimus assumenda dicta nostrum voluptatibus. Eos corrupti iure omnis sunt. Repellat voluptatem consequatur esse error tenetur consequatur similique architecto. Odio amet ex quia.\\n\\nQuae qui deserunt incidunt laboriosam. Ullam quasi et sit cupiditate magni est. Repellendus earum nobis officiis id et minima ex aut.\",\n            \"user_id\": 46\n        },\n        {\n            \"id\": 37,\n            \"name\": \"et aperiam deleniti\",\n            \"description\": \"Rerum id recusandae dicta quod vel ut. Beatae tenetur totam odio dolores. Quis quo tenetur sint cumque. Quo omnis aut iste dignissimos qui quo expedita.\\n\\nExplicabo assumenda similique ut error. Ratione dolore sequi beatae illo distinctio. Reprehenderit eveniet tempore culpa quasi quia sit.\",\n            \"user_id\": 47\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Tag update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"tag new2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiUrl}}/tags/5",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tags",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tags update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tag new2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tags/5",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tags",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:08:04 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:08:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tag\": {\n        \"id\": 5,\n        \"name\": \"tag new2\"\n    },\n    \"msg\": \"Ok! Tag updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Tag delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"tag new2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiUrl}}/tags/5",
+					"host": [
+						"{{apiUrl}}"
+					],
+					"path": [
+						"tags",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tags delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tag new2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apiUrl}}/tags/5",
+							"host": [
+								"{{apiUrl}}"
+							],
+							"path": [
+								"tags",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:25:45 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 16 Oct 2021 15:25:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"msg\": \"Ok! Tag delete\"\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "apiUrl",
+			"value": "http://localhost/api/v1"
+		}
+	]
+}
